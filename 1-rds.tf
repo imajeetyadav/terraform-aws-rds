@@ -23,8 +23,9 @@ resource "aws_db_instance" "rds" {
   delete_automated_backups              = var.delete_automated_backups
   performance_insights_enabled          = var.performance_insights_enabled
   performance_insights_retention_period = var.performance_insights_retention_period
-  parameter_group_name                  = aws_db_parameter_group.rds.name
-  apply_immediately                     = true
+  apply_immediately                     = var.apply_immediately
+
+  parameter_group_name = aws_db_parameter_group.rds.name
 
   tags = {
     Name    = "${var.name}-rds"
@@ -58,4 +59,3 @@ resource "aws_db_parameter_group" "rds" {
     Project = var.name
   }
 }
-

@@ -45,4 +45,3 @@ resource "aws_secretsmanager_secret_version" "database_password" {
   secret_id     = aws_secretsmanager_secret.database_password.id
   secret_string = var.database_password
 }
-
