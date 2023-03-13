@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source             = "git://github.com/imajeetyadav/terraform-aws-vpc.git?ref=v1.0.0"
+  source             = "github.com/imajeetyadav/terraform-aws-vpc.git?ref=v1.0.0"
   name               = var.name
   region             = var.region
   cidr               = var.cidr
