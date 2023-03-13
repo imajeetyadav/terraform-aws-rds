@@ -1,4 +1,5 @@
-# terraform-aws-rds
+# RDS
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
@@ -17,7 +18,7 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_vpc"></a> [vpc](#module\_vpc) | git://github.com/imajeetyadav/terraform-aws-vpc.git | n/a |
+| <a name="module_vpc"></a> [vpc](#module\_vpc) | git://github.com/imajeetyadav/terraform-aws-vpc.git | v1.0.0 |
 
 ## Resources
 
