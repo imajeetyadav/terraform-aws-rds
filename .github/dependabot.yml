@@ -1,0 +1,9 @@
+version: 2
+updates:
+  # Terraform
+  - package-ecosystem: "terraform"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: ⬆
