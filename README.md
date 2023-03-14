@@ -70,5 +70,7 @@
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_rds_address"></a> [rds\_address](#output\_rds\_address) | RDS Endpoint |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
